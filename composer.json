@@ -1,0 +1,30 @@
+{
+    "name": "verdient/saiya",
+    "description": "Saiya API SDK",
+    "type": "library",
+    "keywords": ["Saiya", "API", "SDK"],
+    "homepage": "https://github.com/Verdient/saiya",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/saiya/issues",
+        "source": "https://github.com/Verdient/saiya"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "verdient/http-api": "~0.0.0",
+        "tuupola/base62": "^2.1",
+        "verdient/signature": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\Saiya\\": "src"
+        }
+    }
+}
